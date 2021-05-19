@@ -1,0 +1,74 @@
+:root
+{
+    --primary : #A5D060;
+}
+body
+{
+     background-color: rgb(27, 26, 26); 
+     color: white;
+     margin:0;
+}
+nav{
+     /* background-color: var(--primary);  */
+    margin:0px;
+}
+.qoute{
+    color:var(--primary);
+    text-align: center;
+}
+.box {
+    background-color: var(--primary);
+    margin :120px auto;
+    max-width:400px;
+    padding :1rem;
+    border-radius: 1rem;
+    color:black;
+
+}
+h1{
+    text-shadow: 6px 2px 5px rgb(218, 103, 103);
+    text-align: center;
+}
+li{
+    padding : 0.2rem;
+}
+input{
+    height: 50px;
+    width : 300px;
+}
+.add-button{
+    padding : 0.5rem;
+}
+.list li.button{
+position:absolute;
+
+
+}
+
+
+
+
+.inputIntake button{
+    pointer-events: none; 
+    opacity :50%;
+}
+.inputIntake button.active{
+    pointer-events: auto;
+    opacity: 100%;
+    background-color: white;
+}
+img{
+    height: 30%;
+    width: 30%;
+    margin: 1% 35%;
+}
+.clearall button{
+    pointer-events: none; 
+    opacity :50%;
+}
+.clearall button.active{
+    pointer-events: auto;
+    opacity: 100%;
+    background-color: white;
+}
+

@@ -68,6 +68,7 @@ input{
      height: 46px;
     width : 300px; 
     margin:8px;
+    border-radius: 5px;
 }
 .add-button{
     padding : 0.5rem;

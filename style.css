@@ -100,6 +100,7 @@ top:0px;
     pointer-events: none; 
     opacity :50%;
     border-radius: 5px;
+    border: 1px solid grey;
 
 }
 .inputIntake button.active{
@@ -120,7 +121,8 @@ img.todo{
     font-family: 'Lora', serif;
     border-radius: 1rem;
     margin: 0rem 1rem;
-    border-color: grey;
+
+    border: 1px solid grey;
 }
 .clearall button.active{
     pointer-events: auto;

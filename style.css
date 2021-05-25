@@ -134,6 +134,7 @@ img.todo{
 footer{
     background-color: var(--secoundary); 
     padding: 0.5rem;
+    margin-bottom: 0;
    
 }
 .link{
@@ -149,6 +150,7 @@ footer{
 .item{
     text-decoration: none;
     color: white;
+
 }
 .link img{
     width : 30px;

@@ -4,6 +4,7 @@
     --primary : #A5D060;
     --secoundary:#344913;
     --third: rgb(56, 124, 56);
+    margin:0;
 }
 body
 {
@@ -25,14 +26,17 @@ nav{
     text-align: center;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) and (min-width:100px){
     .inputIntake{
         display: flex;
     }
 
     
-     .inputIntake button{
-  margin-top: 8px;
+    .inputIntake button{
+     margin-top: 8px;
+        }
+    .box{
+         margin: 1.5rem !important;
         }
     
     
@@ -40,16 +44,16 @@ nav{
 
 .box {
     background-color: var(--primary);
-    margin :auto;
+    
     max-width:400px;
+    min-width:200px;
     padding :1rem;
     border-radius: 1rem;
     color:black;
     position:relative;
     left:0%;
     font-size: 13px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin :20px auto 40px auto;
     
 
 }
@@ -103,9 +107,9 @@ top:0px;
     color:white;
 }
 img.todo{
-    height: 30%;
-    width: 30%;
-    margin: 3% 35%;
+    height: 25%;
+    width: 25%;
+    margin: 4% 38%;
     
 }
 .clearall button{

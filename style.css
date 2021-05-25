@@ -99,6 +99,7 @@ top:0px;
 .inputIntake button{
     pointer-events: none; 
     opacity :50%;
+
 }
 .inputIntake button.active{
     pointer-events: auto;
@@ -116,7 +117,9 @@ img.todo{
     pointer-events: none; 
     opacity :50%;
     font-family: 'Lora', serif;
-    
+    border-radius: 1rem;
+    margin: 0rem 1rem;
+    border-color: grey;
 }
 .clearall button.active{
     pointer-events: auto;

@@ -121,14 +121,14 @@ img.todo{
     font-family: 'Lora', serif;
     border-radius: 1rem;
     margin: 0rem 1rem;
-
+    padding:10px;
     border: 1px solid grey;
 }
 .clearall button.active{
     pointer-events: auto;
     opacity: 100%;
     background-color: rgb(56, 124, 56);
-    padding:10px;
+   
     color:ivory;
 
     

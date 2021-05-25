@@ -65,7 +65,7 @@ li{
     padding : 0.2rem;
 }
 input{
-     height: 50px;
+     height: 46px;
     width : 300px; 
     margin:8px;
 }
@@ -99,6 +99,7 @@ top:0px;
 .inputIntake button{
     pointer-events: none; 
     opacity :50%;
+    border-radius: 5px;
 
 }
 .inputIntake button.active{

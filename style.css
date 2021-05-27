@@ -27,22 +27,6 @@ nav{
     text-align: center;
 }
 
-@media screen and (max-width:600px) and (min-width:100px){
-    .inputIntake{
-        display: flex;
-    }
-
-    
-    .inputIntake button{
-     margin-top: 8px;
-        }
-    .box{
-         margin: 1.5rem !important;
-        }
-    
-    
-}
-
 .box {
     background-color: var(--primary);
     
@@ -58,6 +42,23 @@ nav{
     
 
 }
+
+@media screen and (max-width:600px) and (min-width:100px){
+    .inputIntake{
+        display: flex;
+    }
+
+    
+    .inputIntake button{
+     margin-top: 8px;
+        }
+    .box{
+         margin: 1.5rem;
+        }
+    
+    
+}
+
 h1{
      
     text-align: center;

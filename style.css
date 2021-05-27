@@ -145,9 +145,10 @@ footer{
      padding: 0.1rem; 
     margin-bottom: 0;
     position:absolute;
-    bottom:0px;
+    /* bottom:0px;*/
     right:0px;
-    left:0px;
+    left:0px; 
+   
 }
 .link{
     text-decoration: none;
